@@ -30,9 +30,9 @@ include $(DEVKITPRO)/libnx/switch_rules
 #     - icon.jpg
 #     - <libnx folder>/default_icon.jpg
 #---------------------------------------------------------------------------------
-APP_TITLE := PowerToolsNX - Power Off
+APP_TITLE := PowerToolsNX
 APP_AUTHOR := CVFD
-APP_VERSION := 0.1
+APP_VERSION := 0.2
 APP_TITLEID := 01040207060001112
 ICON := icon.jpg
 
