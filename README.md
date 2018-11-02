@@ -2,4 +2,4 @@
 An app that can reboot or power off your Nintendo Switch
 
 ## Todo
-Make a version that can reboot into rcm (probs not possible for a while)
+Make a reboot into RCM option (probs not possible for a while)
