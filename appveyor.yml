@@ -3,7 +3,9 @@ image: Ubuntu
 init:
 - sh: >-
     mkdir ../resources
+    
     mkdir ../libnx
+    
     wget https://github.com/devkitPro/pacman/releases/download/devkitpro-pacman-1.0.1/devkitpro-pacman.deb -P ../resources
 install:
 - sh: >-
