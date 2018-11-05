@@ -42,8 +42,8 @@ build_script:
     
     TEMP="$(realpath ${RELEASE_FOLDER})"
     
-    cd ${RELEASE_FOLDER
-    }
+    cd ${RELEASE_FOLDER}
+    
     zip -9 -r ${RELEASE_FILE} *
     
     cd ${APPVEYOR_BUILD_FOLDER}
