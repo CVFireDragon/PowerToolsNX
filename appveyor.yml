@@ -20,10 +20,7 @@ build_script:
     RELEASE_FILE="../powertoolsnx/bin-PowerToolsNX-${COMMIT_ID}.zip"
     RELEASE_FOLDER="../bin-PowerToolsNX-${COMMIT_ID}"
     mkdir ${RELEASE_FOLDER}
-    find . -name '*.elf' | cpio -pdm ${RELEASE_FOLDER}
-    find . -name '*.kip' | cpio -pdm ${RELEASE_FOLDER}
-    find . -name '*.bin' | cpio -pdm ${RELEASE_FOLDER}
-    find . -name '*.nsp' | cpio -pdm ${RELEASE_FOLDER}
+    find . -name '*.nro' | cpio -pdm ${RELEASE_FOLDER}
     TEMP="$(realpath ${RELEASE_FOLDER})"
     cd ${RELEASE_FOLDER}
     zip -9 -r ${RELEASE_FILE} *
