@@ -32,6 +32,14 @@ build_script:
     
     find . -name '*.nro' | cpio -pdm ${RELEASE_FOLDER}
     
+    find . -name '*.nso' | cpio -pdm ${RELEASE_FOLDER}
+    
+    find . -name '*.nacp' | cpio -pdm ${RELEASE_FOLDER}
+    
+    find . -name '*.elf' | cpio -pdm ${RELEASE_FOLDER}
+    
+    find . -name '*.pfs0' | cpio -pdm ${RELEASE_FOLDER}
+    
     TEMP="$(realpath ${RELEASE_FOLDER})"
     
     cd ${RELEASE_FOLDER
