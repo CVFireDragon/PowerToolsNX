@@ -24,7 +24,7 @@ build_script:
     
     COMMIT_ID="$(git rev-parse HEAD)"
     
-    RELEASE_FILE="../ptnx/bin-PowerToolsNX-${COMMIT_ID}.zip"
+    RELEASE_FILE="../powertoolsnx/bin-PowerToolsNX-${COMMIT_ID}.zip"
     
     RELEASE_FOLDER="../bin-PowerToolsNX-${COMMIT_ID}"
     
