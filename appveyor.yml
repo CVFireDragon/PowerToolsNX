@@ -48,7 +48,6 @@ build_script:
     
     cd ${APPVEYOR_BUILD_FOLDER}
     
-    make dist
 artifacts:
 - path: bin-PowerToolsNX-*.zip
 - path: out/*.zip
