@@ -19,18 +19,14 @@ int main(int argc, char **argv)
         u64 kDown = hidKeysDown(CONTROLLER_P1_AUTO);
 		if(kDown & KEY_B)
 		{
-	printf("\nRebooting...\n          ");
-	sleep(1);
-    bpcInitialize();
-    bpcRebootSystem();
+        bpcInitialize();
+        bpcRebootSystem();
 		}
 		
 		if(kDown & KEY_A)
 		{
-    printf("\nShutting Down...\n            ");
-	sleep(1);
-    bpcInitialize();
-    bpcShutdownSystem();
+        bpcInitialize();
+        bpcShutdownSystem();
 		}
 		
         if (kDown & KEY_PLUS) break;
