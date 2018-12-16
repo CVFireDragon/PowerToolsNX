@@ -34,6 +34,8 @@ int main(int argc, char **argv)
 		{
         Result rc = splInitialize();
 		rc = splSetConfig ((SplConfigItem) 65001, 1);
+			
+		}
 		
         if (kDown & KEY_PLUS) break;
 		
