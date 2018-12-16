@@ -11,7 +11,7 @@ int main(int argc, char **argv)
 	consoleInit(NULL);
 	printf("PowerToolsNX v0.2 - By CVFD\n");
 	printf("Press A to shutdown, B to reboot");
-	printf("or X to reboot into RCM (UNSTABLE)");
+	printf("or X to reboot into RCM (DO NOT USE ON EXFAT)");
 	
 	while(appletMainLoop())
     {
