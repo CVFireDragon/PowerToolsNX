@@ -8,3 +8,5 @@ VOLUME [ "/code" ]
 WORKDIR /code
 
 CMD [ "make", "-j8" ]
+
+docker push cvfiredragon/powertoolsnx:latest
