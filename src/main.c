@@ -33,15 +33,7 @@ int main(int argc, char **argv)
 		if(kDown & KEY_X)
 		{
         Result rc = splInitialize();
-	if (R_FAILED(rc)) {
-		printf("splInitialize failed!\nPress + to exit.\n");
-	} else {
 		rc = splSetConfig ((SplConfigItem) 65001, 1);
-		if (R_FAILED(rc)) {
-			printf("splInitialize failed!\nPress + to exit.\n");
-			consoleUpdate(NULL);
-			
-		}
 		
         if (kDown & KEY_PLUS) break;
 		
