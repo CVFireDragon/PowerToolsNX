@@ -32,7 +32,7 @@ include $(DEVKITPRO)/libnx/switch_rules
 #---------------------------------------------------------------------------------
 APP_TITLE := PowerToolsNX
 APP_AUTHOR := CVFD
-APP_VERSION := 0.3b
+APP_VERSION := 1.0
 APP_TITLEID := 01040207060001112
 ICON := icon.jpg
 
